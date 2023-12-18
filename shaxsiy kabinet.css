@@ -1,0 +1,298 @@
+header{
+    background: #fff;
+    width: 85em;
+    height: 5em;
+    top: 0em;
+    border-bottom:1px solid rgb(180, 212, 211);
+    position: fixed;
+    z-index: 2;
+}
+.img-5{
+    width: 5em;
+}
+.img-4{
+    width: 20em;
+    padding: 20px 100px;
+}
+.list-head{
+    list-style: none;
+}
+.list-head li a{
+    text-decoration: none;
+    line-height: 3em;
+    position: relative;
+    top: 2em;
+    color: black;
+    font-size: 1.1em;
+    transition: .2s;
+}
+.ateg  {
+    display: block;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: rgb(179, 179, 179);
+    position: relative;
+    top: -4em;
+}
+.ateg2{
+    position: relative;
+    top: -7em;
+}
+.location2{
+    color: rgb(179, 179, 179);
+    width: 1.9em;
+    height: 1.9em;
+    left: -4em;
+    top: -4.6em;
+    position: relative; 
+}
+.btn-7{
+    background: rgb(25,135,84);
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 20px;
+    width: 22em;
+    border-radius: 10px;
+    position: relative;
+    top: -5em;
+}
+.yunalish{
+    position: relative;
+    top: -135em;
+}
+.phone-2{
+    width: 1.5em;
+    height: 1.5em;
+    display: inline;
+    position: relative;
+    left: -4em;
+    top: -.5em;
+    color:  rgb(179, 179, 179) ;
+}
+.btn-modal{
+    background: rgb(235,235,235);
+    border: none;
+    font-size: 1.2em;
+    position: absolute;
+    left: 60em;
+    top: .6em;
+    padding: 10px;
+}
+.btn-nav{
+    background: rgb(183,48,183);
+    color: white;
+    border: none;
+    position: absolute;
+    top: .6em;
+    left: 49em;
+    padding: 10px 35px;
+    font-size: 1.2em;
+}
+.list-head-2{
+    list-style: none;
+    left: 3em;
+    top: 3em;
+    line-height: 4.5em;
+    position: relative;
+}
+.list-head a:hover{
+    color: #b730b7;
+}
+#btn button{
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 4px;
+    margin-top: 40px;
+    overflow: hidden;
+    padding: 15px 25px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+    left: 2.45em;
+    top: 2em;
+    color: #03e9f4;
+    font-family: sans-serif;
+    background: transparent;
+    border: none;
+}
+body{
+    overflow: hidden;
+}
+.container-2{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background:linear-gradient(rgb(23,35,54), rgb(35, 53, 82)) ;
+    overflow: hidden;
+}
+#btn button span:first-child {
+    animation: animation1 1s linear infinite;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    height: 2px;
+    left: -100%;
+    top: 0;
+    width: 100%;
+}
+#btn button span:nth-child(2){
+    animation: animation2 1s linear infinite;
+    animation-delay: .25s;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    height: 100%;
+    right: 0;
+    top: -100%;
+    width: 2px;
+}
+#btn button span:nth-child(3){
+    animation: animation3 1s linear infinite;
+    animation-delay: .5s;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+    bottom: 0;
+    height: 2px;
+    right: -100%;
+    width: 100%;
+}
+#btn button span:nth-child(4){
+    animation: animation4 1s linear infinite;
+    animation-delay: .75s;
+    background: linear-gradient(1turn,transparent,#03e9f4);
+    bottom: -100%;
+    height: 100%;
+    left: 0;
+    width: 2px;
+}
+#btn button span{
+    display: block;
+    position: absolute;
+}
+#btn button:hover{
+    background: #03e9f4;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+    color: #fff;
+}
+.login{
+    position: absolute;
+    left: 30em;
+    top: 8em;
+    width: 25em;
+    height: 25em;
+    background:linear-gradient(rgb(12,19,28), rgb(18, 26, 43)) ;
+    border-radius: 10px;
+    box-shadow: -1px 10px 30px  rgba(0, 0, 0, 0.685);
+}
+.ateg-link{
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 2em;
+    position: relative;
+    left: 1em;
+    top: 1em;
+    transition: .5s;
+    background: transparent;
+    border: none;
+}
+.ateg:hover{
+    color: #03e9f4;
+}
+.sign-up-link{
+    position: relative;
+    left: 5em;
+}
+input{
+    position: relative;
+    left: 1.7em;
+    top: 3em;
+    width: 16.8em;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(145, 150, 158);
+    background: transparent;
+    padding: 20px 0px;
+    font-size: 1.2em;
+    color: white;
+}
+input[type="password"]{
+    position: relative;
+    top: 3em;
+
+}
+label{
+    display:block;
+    color: #fff;
+    font-family: sans-serif;
+    position: relative;
+    left: 2em;
+    top: 1.5em;
+    transition: .5s;
+}
+label[for="password"]{
+    position: relative;
+    top: 1.5em;
+}
+input:focus~label,
+input:valid~label{
+    top: -0.7em;
+    font-size: .8em;
+    left: 2.45em;
+    color: #03e9f4;
+}
+input:focus~label[for="password"],
+input:valid~label[for="password"]{
+    top: -.5em;
+}
+.login-2{
+    height: 30em;
+    width: 25em;
+    position: absolute;
+    left: 30em;
+    top: 8em;
+    background:linear-gradient(rgb(12,19,28), rgb(18, 26, 43)) ;
+    border-radius: 10px;
+    box-shadow: -1px 10px 30px  rgba(0, 0, 0, 0.685);
+}
+
+
+
+
+
+
+@keyframes animation1{
+    0%{
+        left: -100%;
+    }
+    50%, 100%{
+        left: 100%;
+    }
+} 
+ @keyframes animation2{
+    0%{
+        top: -100%;
+    }
+    50%, 100%{
+        top: 100%;
+    }
+} 
+@keyframes animation3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+} 
+@keyframes animation4{
+    0%{
+        bottom: -100%;
+    }
+    50%, 100%{
+        bottom: 100%;
+    }
+} 
+

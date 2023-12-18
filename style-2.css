@@ -1,0 +1,22 @@
+.list{
+    position: relative;
+    left: 5em;
+}
+.div-9{
+    margin-top: -6em;
+}
+.div-10{
+    position: relative;
+    top: 6em;
+    left: -5em;
+}
+.container-2{
+    position: relative;
+    top: -166em;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    z-index: 5;
+}
